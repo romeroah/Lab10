@@ -11,7 +11,7 @@ public class SortedListGUI extends JFrame {
     public SortedListGUI() {
         sortedList = new SortedList();
         
-        setTitle("Sorted List Demo");
+        setTitle("Sorted List");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLayout(new BorderLayout());
         
@@ -43,8 +43,6 @@ public class SortedListGUI extends JFrame {
         pack();
         setLocationRelativeTo(null);
         setVisible(true);
-        
-        updateDisplay("Welcome to Sorted List Demo!\n");
     }
     
     private void addElement() {
